@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #ff4e50, #fc913a);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav li:hover {
+  color: #ffe66d;
+}

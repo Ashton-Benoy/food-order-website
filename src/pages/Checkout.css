@@ -1,0 +1,41 @@
+
+.checkout-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.checkout-box {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.checkout-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.place-order-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.place-order-btn:hover {
+  background: #219150;
+}

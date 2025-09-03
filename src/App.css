@@ -1,0 +1,48 @@
+/* 🌞 Light Theme */
+.light-theme {
+  --bg-color: #f9f9f9;
+  --text-color: #222;
+  --card-bg: #ffffff;
+  --card-text: #333;
+  --card-subtext: #777;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --accent-color: #ff6600;
+  --button-bg: linear-gradient(135deg, #ff6a00, #ee0979);
+  --button-hover: linear-gradient(135deg, #ee0979, #ff6a00);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* 🌙 Dark Theme */
+.dark-theme {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --card-bg: #1e1e1e;
+  --card-text: #ffcc70;
+  --card-subtext: #ccc;
+  --card-shadow: rgba(0, 0, 0, 0.6);
+  --accent-color: #ff9500;
+  --button-bg: #ffcc70;
+  --button-hover: #ffb347;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Apply background + text globally */
+body, .light-theme, .dark-theme {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+
+.hero {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #fff;
+}
+.dark-theme .hero {
+  background: linear-gradient(135deg, #2c2c2c, #1e1e1e);
+  color: var(--text-color);
+}
